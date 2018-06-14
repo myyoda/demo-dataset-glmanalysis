@@ -1,0 +1,3 @@
+[submodule "inputs/rawdata"]
+	path = inputs/rawdata
+	url = /tmp/ohbm/glm_analysis/../localizer_scans
