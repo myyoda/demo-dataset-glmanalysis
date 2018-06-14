@@ -1,2 +1,6 @@
 [datalad "dataset"]
 	id = 3dc942cc-6fcc-11e8-a360-f0d5bf7b5561
+[datalad "containers.fsl"]
+	updateurl = shub://mih/ohbm2018-training:fsl
+	image = .datalad/environments/fsl/image
+	cmdexec = singularity exec {img} {cmd}
